@@ -3,5 +3,13 @@
   "viewportHeight": 660,
   "chromeWebSecurity": false,
   "pageLoadTimeout": 9000,
-  "projectId": "mt5x4z"
+  "projectId": "mt5x4z",
+  "screenshotOnRunFailure": true,
+  "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+    "reportDir": "cypress/report",
+    "charts": true,
+    "reportPageTitle": "custom-title",
+    "embeddedScreenshots": true
+  }
 }
